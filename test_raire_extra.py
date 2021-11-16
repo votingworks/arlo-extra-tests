@@ -4,8 +4,8 @@ from  server.tests.audit_math.test_raire import run_test
 import pytest
 
 
-RAIRE_INPUT_DIR = "server/tests/extra/ExtraRaireData/Input/"
-RAIRE_OUTPUT_DIR = "server/tests/extra/ExtraRaireData/Output/"
+RAIRE_INPUT_DIR = "server/tests/arlo-extra-tests/ExtraRaireData/Input/"
+RAIRE_OUTPUT_DIR = "server/tests/arlo-extra-tests/ExtraRaireData/Output/"
 
 def pytest_generate_tests(metafunc):
     input_files = Path(RAIRE_INPUT_DIR).glob("*.raire")
